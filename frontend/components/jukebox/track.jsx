@@ -3,7 +3,7 @@ import React from 'react';
 const Track = ({track, onPlay, disabled, onDelete}) => (
   <div className='track' key={track.id}>
     {track.name} &nbsp; <button onClick={onPlay} disabled={disabled}>play</button>
-  &nbsp; <button onClick={onDelete}>delete</button>
+  &nbsp; <button onClick={onDelete} disabled={disabled}>delete</button>
   </div>
 );
 

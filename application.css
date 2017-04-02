@@ -73,9 +73,10 @@
 }
 
 .titles {
-  color: #b5a23b;
+  font-family: sans-serif;
+  color: #2e9dcd;
   font-size: 24px;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -89,6 +90,10 @@ nav {
   z-index: 1;
 }
 
+button {
+  background: #b5a23b;
+}
+
 #logo {
   display: flex;
   justify-content: space-between;
@@ -97,7 +102,8 @@ nav {
 }
 
 #logo a{
-  color: #b5a23b;
+  /*color: #b5a23b;*/
+  color: #2e9dcd;
   font-size: 200%;
 }
 

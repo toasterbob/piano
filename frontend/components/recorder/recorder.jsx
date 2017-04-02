@@ -8,6 +8,7 @@ const Recorder = ({ startRecording, stopRecording, isRecording, isPlaying}) => (
       <div>
         <button onClick={startRecording} disabled={isRecording || isPlaying }>start</button>
       </div>
+      <div>&nbsp;</div>
       <div>
         <button onClick={stopRecording} disabled={!isRecording}>stop</button>
       </div>
