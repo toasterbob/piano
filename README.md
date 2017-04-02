@@ -4,7 +4,7 @@
 
 [piano]: http://www.marknoizumi.com/piano/
 
-Electric piano is built using React/Redux.  It is entirely a front-end project and resembles a miniature keyboard I played with as a kid that recorded songs.  
+Electric piano is built using React/Redux.  It is entirely a front-end project and resembles a miniature keyboard that I played with as a kid.  
 
 ![pianoPic](piano.png)
 
