@@ -1,0 +1,81 @@
+.keyboard {
+  display: flex;
+  justify-content: center;
+}
+
+.track {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.play {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.white-key {
+  height: 220px;
+  width: 60px;
+  border: 1px solid black;
+  box-shadow: 0 10px 2px 0 grey;
+  border-radius: 5px;
+  background: white;
+}
+
+.white-key-pressed {
+  height: 220px;
+  width: 60px;
+  border: 1px solid black;
+  background: grey;
+  color: white;
+  box-shadow: 0 2px 10px 0 grey;
+}
+
+.black-key {
+  height: 125px;
+  width: 40px;
+  border: 1px solid black;
+  box-shadow: 0 5px 2px 0 grey;
+  border-radius: 5px;
+  background: black;
+  margin-left: -20px;
+  position: absolute;
+  color: white;
+}
+
+.black-key-pressed {
+  height: 125px;
+  width: 40px;
+  border: 1px solid black;
+  box-shadow: 0 2px 5px 0 grey;
+  border-radius: 5px;
+  background: grey;
+  margin-left: -20px;
+  position: absolute;
+}
+
+.note-name {
+  text-align: center;
+  font-size: 20px;
+  margin-left: auto;
+  margin-top: 185px;
+}
+
+.black-note-name {
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
